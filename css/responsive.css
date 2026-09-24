@@ -1,0 +1,253 @@
+/**
+ * LegalEase - Responsive Design Stylesheet
+ * Fluid layouts for Desktop, Laptop, Tablet, and Mobile
+ */
+
+/* =========================================
+   LARGE SCREENS / LAPTOPS (<= 1366px)
+   ========================================= */
+@media (max-width: 1366px) {
+    .navbar .nav-container {
+        gap: 10px;
+        padding: 0 16px;
+    }
+
+    .nav-links {
+        gap: 8px;
+    }
+
+    .nav-link {
+        font-size: 13px;
+        padding: 4px 6px;
+    }
+
+    .nav-actions {
+        gap: 6px;
+    }
+
+    .nav-actions .mode-indicator {
+        display: none; /* Gives menu links abundant space on standard laptops */
+    }
+
+    .workspace-layout {
+        grid-template-columns: 380px 1fr;
+        gap: 20px;
+    }
+
+    .templates-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .steps-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =========================================
+   TABLETS & MEDIUM SCREENS (<= 1080px)
+   ========================================= */
+@media (max-width: 1080px) {
+    .mobile-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-menu-wrapper {
+        flex: 0;
+        min-width: auto;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background-color: var(--white);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 24px;
+        border-bottom: 1px solid var(--slate-200);
+        box-shadow: var(--shadow-lg);
+        gap: 10px;
+        z-index: 999;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-link {
+        width: 100%;
+        padding: 10px 14px;
+        font-size: 15px;
+    }
+
+    .nav-actions .mode-indicator {
+        display: none;
+    }
+
+    .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .workspace-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .form-panel {
+        position: static;
+        margin-bottom: 30px;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+/* =========================================
+   SMALL TABLETS & LARGE PHONES (<= 640px)
+   ========================================= */
+@media (max-width: 640px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .hero-section {
+        padding: 50px 0 40px;
+    }
+
+    .hero-title {
+        font-size: 32px;
+        letter-spacing: -0.5px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+    }
+
+    .hero-stats {
+        gap: 20px;
+    }
+
+    .stat-item {
+        min-width: 120px;
+    }
+
+    .templates-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .document-paper {
+        padding: 36px 24px;
+    }
+
+    .doc-main-title {
+        font-size: 20px;
+    }
+
+    .parties-grid {
+        flex-direction: column;
+    }
+
+    .party-divider {
+        justify-content: center;
+        margin: 4px 0;
+    }
+
+    .signatures-grid {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .preview-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .toolbar-actions {
+        justify-content: flex-start;
+    }
+
+    .toolbar-actions .btn {
+        flex: 1 1 auto;
+    }
+
+    .history-drawer {
+        max-width: 100%;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .features-check-list {
+        grid-template-columns: 1fr;
+    }
+
+    .form-label-row {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .field-meta-pill {
+        font-size: 10.5px;
+        padding: 2px 8px;
+    }
+}
+
+/* =========================================
+   ULTRA SMALL SCREENS (<= 400px)
+   ========================================= */
+@media (max-width: 400px) {
+    .document-paper {
+        padding: 24px 16px;
+        font-size: 13.5px;
+    }
+
+    .doc-main-title {
+        font-size: 18px;
+    }
+
+    .toast {
+        min-width: auto;
+        width: 90vw;
+    }
+}

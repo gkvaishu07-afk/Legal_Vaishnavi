@@ -1,0 +1,188 @@
+{
+  "templates": [
+    {
+      "id": "freelance_contract",
+      "name": "Freelance Work Contract",
+      "category": "Contract & Work",
+      "description": "Standard agreement between an independent contractor and a client specifying scope of work, deliverables, payment milestones, and IP ownership.",
+      "icon": "briefcase",
+      "sample_parties": "Jane Doe, Freelance Developer (Contractor); TechNova Solutions Inc., represented by John Smith, CEO (Client)",
+      "sample_terms": "The Contractor shall deliver the completed software solution within 60 calendar days; The Client agrees to pay a fixed fee of $4,500 payable in two equal milestones: 50% upfront and 50% upon final acceptance; All intellectual property and source code created shall transfer unconditionally to the Client upon final payment; Either party may terminate this agreement upon 14 days written notice; Both parties agree to maintain strict confidentiality regarding proprietary materials.",
+      "recitals": [
+        "WHEREAS, the Client desires to retain the services of the Contractor to perform specialized freelance work and technical deliverables; and",
+        "WHEREAS, the Contractor represents possessing the professional expertise, qualifications, and facilities necessary to perform such services in a timely and diligent manner."
+      ],
+      "sections": [
+        "1. Scope of Engagement & Deliverables",
+        "2. Compensation & Milestone Payments",
+        "3. Independent Contractor Status",
+        "4. Intellectual Property & Work-for-Hire",
+        "5. Confidentiality & Non-Disclosure",
+        "6. Term & Termination",
+        "7. Warranties & Limitation of Liability",
+        "8. Governing Law & Dispute Resolution"
+      ]
+    },
+    {
+      "id": "service_agreement",
+      "name": "Service Agreement",
+      "category": "Services & Vendors",
+      "description": "Comprehensive agreement defining services to be rendered by a service provider to a client, including SLAs, performance standards, and fees.",
+      "icon": "shield-check",
+      "sample_parties": "Apex Cloud Systems LLC, Service Provider; Horizon Enterprises Inc., Customer",
+      "sample_terms": "The Service Provider shall maintain a system uptime guarantee of 99.9% during business hours; Monthly service subscription fee of $1,200 shall be invoiced on the 1st of each calendar month and payable within 15 days; In the event of service degradation, service credits shall be credited toward the subsequent billing cycle; Routine maintenance windows shall be scheduled on weekends with at least 48 hours advance notice; This agreement shall renew automatically on an annual basis unless cancelled with 30 days notice.",
+      "recitals": [
+        "WHEREAS, Customer desires to engage Service Provider to deliver ongoing managed services, technical maintenance, and infrastructure support; and",
+        "WHEREAS, Service Provider agrees to furnish such services in accordance with the terms, conditions, and service levels set forth herein."
+      ],
+      "sections": [
+        "1. Performance of Services & SLAs",
+        "2. Fees, Billing Schedule & Taxes",
+        "3. Customer Obligations & Access",
+        "4. Proprietary Rights & Licensing",
+        "5. Confidential Information",
+        "6. Term, Renewal & Cancellation",
+        "7. Indemnification & Liability Cap",
+        "8. Applicable Jurisdiction & Notices"
+      ]
+    },
+    {
+      "id": "nda",
+      "name": "Non-Disclosure Agreement (NDA)",
+      "category": "Confidentiality & Privacy",
+      "description": "Legally binding mutual or unilateral confidentiality agreement protecting trade secrets, financial records, customer data, and technical IP.",
+      "icon": "lock",
+      "sample_parties": "Aegis Biotech Laboratories (Disclosing Party); Quantum Capital Partners (Receiving Party)",
+      "sample_terms": "The Receiving Party agrees to treat all technical documentation, research data, and business plans as strictly confidential; Confidential Information shall only be disclosed to employees or advisers with a strict need-to-know; The obligations of non-disclosure shall survive for a duration of 3 years from the date of disclosure; In the event of legal compulsion to disclose, the Receiving Party shall provide prompt written notice to allow protective orders; Upon termination, all confidential documents, copies, and derivatives shall be destroyed or returned within 10 days.",
+      "recitals": [
+        "WHEREAS, the Parties are entering into preliminary discussions regarding a potential strategic transaction or commercial collaboration; and",
+        "WHEREAS, in connection with said evaluation, Disclosing Party may reveal certain confidential, proprietary, and sensitive trade secrets to Receiving Party."
+      ],
+      "sections": [
+        "1. Definition of Confidential Information",
+        "2. Exclusions from Confidential Treatment",
+        "3. Non-Disclosure & Use Restrictions",
+        "4. Standard of Care & Security Safeguards",
+        "5. Compelled Disclosures & Subpoenas",
+        "6. Return or Destruction of Materials",
+        "7. Equitable Relief & Injunctions",
+        "8. Term, Governing Law & Severability"
+      ]
+    },
+    {
+      "id": "business_agreement",
+      "name": "Business Agreement",
+      "category": "Commercial & Trade",
+      "description": "Formal commercial agreement between two corporate entities establishing mutual obligations, deliverables, revenue sharing, and operations.",
+      "icon": "file-text",
+      "sample_parties": "Sterling Logistics Corporation (Party A); Pacific Retail Distributors Ltd. (Party B)",
+      "sample_terms": "Party A shall supply logistics, freight, and warehousing services across the designated regional centers; Party B commits to minimum monthly volume thresholds of 5,000 units; Net 30 day payment terms apply to all verified invoices; Both parties shall designate an account representative to conduct bi-weekly operational reviews; Neither party shall solicit or recruit the other party's personnel for a period of 12 months following termination.",
+      "recitals": [
+        "WHEREAS, Party A and Party B desire to formalize an ongoing commercial business relationship on the terms and conditions outlined below; and",
+        "WHEREAS, both entities are duly incorporated, validly existing, and possessed of full corporate power to execute this Agreement."
+      ],
+      "sections": [
+        "1. Commercial Purpose & Obligations",
+        "2. Volume Commitments & Pricing",
+        "3. Quality Assurance & Audits",
+        "4. Invoicing, Terms & Default Interest",
+        "5. Representations & Warranties",
+        "6. Non-Solicitation of Personnel",
+        "7. Force Majeure & Excusable Delays",
+        "8. Governing Law & Arbitral Venue"
+      ]
+    },
+    {
+      "id": "lease_agreement",
+      "name": "Lease Agreement",
+      "category": "Real Estate & Property",
+      "description": "Property lease and tenancy agreement outlining premises, monthly rent, security deposit, maintenance duties, and rules of occupancy.",
+      "icon": "home",
+      "sample_parties": "Oakridge Properties Group LLC (Landlord / Lessor); Marcus Vance & Sarah Vance (Tenant / Lessee)",
+      "sample_terms": "The leased premises is located at Suite 402, 100 Main Boulevard; The monthly rent shall be $2,200 due on the first day of each calendar month; A refundable security deposit of $3,000 shall be deposited prior to occupancy; Tenant shall not sublet or assign the premises without express written consent of Landlord; Landlord shall be responsible for structural repairs and exterior building maintenance; Quiet hours shall be observed between 10:00 PM and 7:00 AM.",
+      "recitals": [
+        "WHEREAS, Landlord is the legal owner of the real property and improvements described as the Leased Premises; and",
+        "WHEREAS, Tenant desires to lease the Premises for residential or commercial tenancy, and Landlord agrees to lease same subject to the terms herein."
+      ],
+      "sections": [
+        "1. Description of Leased Premises",
+        "2. Lease Term & Renewal Options",
+        "3. Monthly Rent, Due Date & Late Fees",
+        "4. Security Deposit & Return Terms",
+        "5. Use of Premises & Prohibited Activities",
+        "6. Maintenance, Alterations & Utilities",
+        "7. Right of Entry & Inspections",
+        "8. Default, Surrender & Governing Jurisdiction"
+      ]
+    },
+    {
+      "id": "employment_offer",
+      "name": "Employment Offer Letter",
+      "category": "HR & Employment",
+      "description": "Formal employment offer and terms of employment covering job title, compensation, benefits, probationary period, and workplace policies.",
+      "icon": "award",
+      "sample_parties": "Crestline Technologies Corp., represented by Elena Vance, HR Director (Employer); Alex Morgan (Candidate / Employee)",
+      "sample_terms": "Position Title: Senior Systems Engineer reporting to the Chief Technology Officer; Starting base salary of $115,000 per annum paid bi-weekly; Comprehensive health insurance, dental coverage, and 401(k) matching up to 4%; A probationary period of 90 calendar days will apply from the start date; Standard paid time off (PTO) accrual of 18 days per calendar year; Employment is at-will and subject to satisfactory reference and background verification.",
+      "recitals": [
+        "WHEREAS, Employer is pleased to extend this formal offer of employment to Employee based upon qualifications and interview assessments; and",
+        "WHEREAS, Employee agrees to accept employment and devote full business time, attention, and energies to the performance of duties."
+      ],
+      "sections": [
+        "1. Position, Reporting & Duties",
+        "2. Compensation & Bonus Eligibility",
+        "3. Employee Benefits & PTO",
+        "4. Probationary Period & Review",
+        "5. Company Policies & Code of Conduct",
+        "6. Invention Assignment & Proprietary Data",
+        "7. At-Will Employment & Notice Period",
+        "8. Acceptance & Execution"
+      ]
+    },
+    {
+      "id": "partnership_agreement",
+      "name": "Partnership Agreement",
+      "category": "Corporate & Co-Founders",
+      "description": "General partnership contract detailing capital contributions, profit and loss distribution, voting rights, and dissolution rules.",
+      "icon": "users",
+      "sample_parties": "David Chen (Partner 1) and Priya Sharma (Partner 2), establishing Beacon Creative Studio",
+      "sample_terms": "Initial capital contributions: Partner 1 contributes $25,000 (50% equity) and Partner 2 contributes $25,000 (50% equity); Net profits and losses shall be divided equally in proportion to partnership equity; Major financial commitments exceeding $5,000 require unanimous written consent of all partners; Management duties shall be shared with Partner 1 handling operations and Partner 2 overseeing marketing; In the event of partner departure, remaining partner holds right of first refusal to purchase equity.",
+      "recitals": [
+        "WHEREAS, the Partners desire to associate themselves as general partners in business under the terms and stipulations set forth herein; and",
+        "WHEREAS, the Partners have agreed to pool resources, capital, and professional talents for mutual commercial benefit."
+      ],
+      "sections": [
+        "1. Name, Purpose & Principal Office",
+        "2. Capital Contributions & Equity Percentages",
+        "3. Allocation of Profits, Losses & Draws",
+        "4. Management Authority & Voting Rules",
+        "5. Banking, Accounting & Fiscal Year",
+        "6. Admission or Withdrawal of Partners",
+        "7. Buy-Sell Provisions & Valuation",
+        "8. Dissolution, Liquidation & Governing Law"
+      ]
+    },
+    {
+      "id": "general_contract",
+      "name": "General Contract",
+      "category": "General Legal",
+      "description": "Versatile all-purpose legal contract suitable for transactions, agreements, mutual obligations, commitments, or specific understandings.",
+      "icon": "file-check",
+      "sample_parties": "Global Logistics Hub, Party of the First Part; Alpha Trading Network, Party of the Second Part",
+      "sample_terms": "Both parties agree to execute their agreed undertakings with professional diligence; Financial settlements shall be reconciled every 30 calendar days; Written notification must precede any proposed contractual amendments; All notices shall be delivered via registered mail or verified electronic mail; Any dispute shall initially undergo good-faith conciliation for 30 days prior to formal legal proceedings.",
+      "recitals": [
+        "WHEREAS, the Parties have agreed to enter into this General Contract for good and valuable mutual consideration; and",
+        "WHEREAS, the Parties wish to record the comprehensive terms and understandings between them in this binding instrument."
+      ],
+      "sections": [
+        "1. Statement of Purpose & Consideration",
+        "2. Mutual Rights & Undertakings",
+        "3. Performance Metrics & Timelines",
+        "4. Financial Arrangements & Invoicing",
+        "5. Term, Expiration & Early Termination",
+        "6. Indemnification & Liability Limits",
+        "7. Severability & Entire Agreement",
+        "8. Governing Law & Signatures"
+      ]
+    }
+  ]
+}
